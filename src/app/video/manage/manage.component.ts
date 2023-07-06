@@ -90,5 +90,7 @@ export class ManageComponent implements OnInit {
 
     await navigator.clipboard.writeText(url);
     alert('Link copied!!!');
+
+
   }
 }
